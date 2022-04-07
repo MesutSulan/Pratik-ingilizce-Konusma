@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mrg"
+    tools:context=".GirisActivity">
+
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/androidbackbuttun"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#ffcc1b"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="29dp"
+        android:text="TEST-1" />
+
+    <Button
+        android:id="@+id/btn_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_test1"
+
+        android:background="@drawable/androidbackbuttun"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#ffcc1b"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="134dp"
+        android:text="TEST-2" />
+
+    <Button
+        android:id="@+id/btn_test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/androidbackbuttun"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#ffcc1b"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/btn_test1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="39dp"
+        android:text="TEST-3" />
+
+    <Button
+        android:id="@+id/btn_test4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/andriodnextbutun"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#69F1EB"
+        android:textSize="18sp"
+        android:layout_alignStart="@+id/btn_test1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="58dp"
+        android:text="TEST-4" />
+
+    <Button
+        android:id="@+id/btn_test5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_test3"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/androidbackbuttun"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#ffcc1b"
+        android:textSize="18sp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="63dp"
+        android:text="TEST-5" />
+
+    <Button
+        android:id="@+id/btn_test6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/andriodnextbutun"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#69F1EB"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/btn_test4"
+        android:layout_alignEnd="@+id/btn_test2"
+        android:text="TEST-6" />
+
+    <Button
+        android:id="@+id/btn_test7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/andriodnextbutun"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#69F1EB"
+        android:textSize="18sp"
+        android:layout_alignStart="@+id/btn_test1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="147dp"
+        android:text="TEST-7" />
+
+    <Button
+        android:id="@+id/btn_test8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_test1"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/androidbackbuttun"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#ffcc1b"
+        android:textSize="18sp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="179dp"
+        android:text="TEST-8" />
+
+    <Button
+        android:id="@+id/btn_test9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/andriodnextbutun"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#69F1EB"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/btn_test7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="29dp"
+        android:text="TEST-9" />
+
+    <Button
+        android:id="@+id/btn_test10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/andriodnextbutun"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#69F1EB"
+        android:textSize="18sp"
+        android:layout_alignStart="@+id/btn_test9"
+        android:layout_alignBottom="@+id/btn_test8"
+        android:text="TEST-10" />
+
+    <Button
+        android:id="@+id/btn_kelime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/androidspeakbutun"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#FF34F109"
+        android:textSize="18sp"
+        android:layout_alignStart="@+id/btn_test2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="234dp"
+        android:text="718-KELİME" />
+</RelativeLayout>

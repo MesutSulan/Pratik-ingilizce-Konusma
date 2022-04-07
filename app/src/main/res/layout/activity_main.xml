@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mrg"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/btngeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/andriodnextbutun"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Back"
+        android:textColor="#69F1EB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnileri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/androidbackbuttun"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Next"
+        android:textColor="#ffcc1b"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnoku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/androidspeakbutun"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Speak"
+        android:textColor="#FF34F109"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnileri"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toEndOf="@+id/btngeri" />
+
+    <TextView
+        android:id="@+id/textingilizce"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="23dp"
+        android:text="Hello"
+        android:textColor="#060606"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/textanlam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textanlam"
+        android:layout_width="378dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="403dp"
+        android:text="Merhaba"
+        android:textColor="#0d0d0d"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textingilizce" />
+
+    <!--    <com.google.android.gms.ads.AdView-->
+    <!--   app:layout_constraintBottom_toTopOf="@+id/reklam"-->
+
+    <!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+    <!--        android:id="@+id/reklam"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        ads:adSize="SMART_BANNER"-->
+    <!--        ads:adUnitId="@string/Banner"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textanlam" >-->
+    <!--    </com.google.android.gms.ads.AdView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
